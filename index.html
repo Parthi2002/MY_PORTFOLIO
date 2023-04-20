@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3383304096.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>FULL STACK DEVELOPER</p>
+                <h1>Hi, I'm<span> Parthiban</span> <br>from Sastra University</h1>
+            </div>
+        </div>
+       
+<!--------------------about-------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="backimgparthi.jpeg">
+            </div>
+            <div class="about-col-2">
+        
+                <h1 class ="sub-title" >About Me</h1>
+                <p >Enthusiastic student aspiring to apply present knowledge gained through the course to solve real-world problems. Fast learner
+                    with a good ability to learn new skills and adapt to changes.
+                    <br> <br>
+                    Self-motivated, self-esteemed, highly passionate and hardworking fresher looking for an opportunity to work in a challenging
+                    organization to utilize my skills and knowledge to work for the growth of the organization.
+                    </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('TechnicalSkills')">TechnicalSkills</p>
+                    <p class="tab-links" onclick="opentab('Areas Of Interest')">Areas Of Interest</p>
+                    <p class="tab-links" onclick="opentab('Educational Qualification')">Educational Qualification</p>
+                </div>
+                <div class="tab-contents active-tab" id="TechnicalSkills">
+                    <ul>
+                        <li><span>R</span><br> Solve problems in R programming language</li>
+                        <br>
+                        <li><span>C </span><br> Solve problems in C language in hackerrank, leetcode, geeksforgeeks</li>
+                        <br>
+                        <li><span>Python </span><br> Solve problems in python language at intermediate level</li>    
+                        <br>
+                        <li><span>Web Development</span><br> Web app Development using HTML, css, Javascript,PHP</li>
+                        <br>
+                        <li><span>Java</span><br> Basic programming knowledge in JAVA</li>
+                        <br>
+                        <li><span>MySQL</span><br>Database connection with PHP-MySQL </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Areas Of Interest">
+                    <ul>
+                        <li>Deep Learning</li>
+                        <br>
+                        <li>Internet Of Things</li>
+                        <br>
+                        <li>Web Development</li>
+                        <br>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Educational Qualification">
+                    <ul>
+                        <li>DEGREE- SASTRA UNIVERSITY
+                            (2020-2024)</span><br> B.TECH - COMPUTER SCIENCE AND
+                            BUSINESS SYSTEM
+                            CGPA: 8.51 (up-to 5th semester)</li>
+                        <br>
+                        <li>12th SRI SANKARA VIDYALAYAA (2019-2020)</span><br> 94.4%</li></li>
+                        <br>
+                        <li>10th SRI SANKARA VIDYALAYAA (2017-2018)</span><br> 93.8%</li></li>
+                    
+                    </ul>
+                </div>
+                
+                </div>
+            
+        </div>
+    </div>
+</div>
+<!-------------------------------------Projects-------------------------->
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="projects-list">
+            <div>
+                <i class="fa-solid fa-car"></i>
+
+                <h2> MULTI-CLASS DETECTION OF EYE FUNDUS DISEASES</h2><br>
+                <p>Duration:<br>
+                    Role Played:<br>
+                    Tools or techniques used:<br>
+                    Team-Size:Individual<br>
+                    Description:Using deep learning ,an automated system was developed for detecting and classifying three common eye fundus diseases:
+                    cataract,diabetic retinopaty,glaucoma.An accuracy of 84% was achieved.</p>
+                    <a href="https://github.com/Parthi2002">Click here</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-rocketchat"></i>
+                <h2> AUTOMATED AGRICULTURE</h2><br>
+                <p>Duration:<br>
+                    Role Played:<br>
+                    Tools or techniques used:<br>
+                    Team-Size: 6<br>
+                    Description: Using a DT(Design Thinking) approach, a hardware and UI design was developed to assist farmers in achieving greater agricultural
+                    efficiency by automating irrigation, fertigation, fruit ripeness monitoring, and weather and climate monitoring.</p>
+                    <a href="https://github.com/Parthi2002">Click here</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-whatsapp"></i>
+            <h2> AUTOMATIC DRAINAGE CLEANING DEVICE</h2><br>
+                <p>Duration:<br>
+                    Role Played: <br>
+                    Tools or techniques used:<br>
+                    Team-Size: Individual<br>
+                    Description:The IoT-based hardware design checks the dust and water level in the drainage system while also bleaching the drainage path and
+                    adding fragrance to the surrounding, ultimately maintaining hygiene.</p>
+                    <a href="https://github.com/Parthi2002">Click here</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-------------------------------------portfolio-------------------------->
+<div id="Portfolio">
+    <div class="container">
+        <h1 class="sub-title"> My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work-1.png">
+                <div class="layer">
+                    <h3>MULTI-CLASS DETECTION OF EYE FUNDUS DISEASES  </h3>
+                    <p>Using deep learning ,an automated system was developed for detecting and classifying three common eye fundus diseases:
+                        cataract,diabetic retinopaty,glaucoma.An accuracy of 84% was achieved.</p>
+                        <a href="https://github.com/Parthi2002"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-2.png">
+                <div class="layer">
+                    <h3>AUTOMATED AGRICULTURE </h3>
+                    <p>Using a DT(Design Thinking) approach, a hardware and UI design was developed to assist farmers in achieving greater agricultural
+                        efficiency by automating irrigation, fertigation, fruit ripeness monitoring, and weather and climate monitoring.</p>
+                        <a href="https://github.com/Parthi2002"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-3.png">
+                <div class="layer">
+                    <h3>AUTOMATIC DRAINAGE CLEANING DEVICE</h3>
+                    <p>The IoT-based hardware design checks the dust and water level in the drainage system while also bleaching the drainage path and
+                        adding fragrance to the surrounding, ultimately maintaining hygiene.</p>
+                        <a href="https://github.com/Parthi2002"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--------------contact------------->
+<div id="contact">
+<div class="container">
+    <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fas fa-paper-plane"></i>parthiban832002@gmail.com</p>
+            <p><i class="fas fa-phone-square-alt "></i>8124908669</p>
+            <div class="social-icons">
+                <a href="https://twitter.com/Naveena03032287?t=vD0uzCYFOn74gL0gDDO-fg&s=08"> <i class="fab fa-twitter-square"> </i> </a>
+                <a href="https://instagram.com/__nav_ee_na__?igshid=YmJhNjkzNzY="> <i class="fab fa-instagram"> </i> </a>
+                <a href="https://www.linkedin.com/in/naveena-p-011626214/"> <i class="fab fa-linkedin"> </i> </a>
+            </div>
+            <br>
+            <a href="124018072_PARTHIBAN.pdf" download class="btn btn2">Download CV </a>
+            
+        </div>
+        <div class="contact-right">
+            <form>
+                <input type="text" name="Name" placeholder="Your Name" required> 
+                <input type="email" name="email" placeholder="Your email" required> 
+                <textarea name="Message" rows="6" placeholder="Your Message" required> </textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+    <div class="copyright">
+        <p>Copyright @Parthiban's Portfolio<i class="fas fa-heart"></i></p>
+    </div>
+</div>
+
+
+
+
+
+
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+
+</script>
+
+
+
+</body>
+</html>
+
+
+
+
+
+
